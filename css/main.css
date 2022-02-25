@@ -89,7 +89,7 @@
   font-weight: 900;
   font-size: 20px;
   position: relative;
-  padding-top: 12em;
+  padding-top: 4em;
   left: 1em;
 }
 .aboutMe #section1 span{
@@ -200,8 +200,8 @@
 }
 
 .myHobbies .myType{
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
