@@ -1,0 +1,26 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.visual{
+  background-image: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.5)), url("../images/back.png");
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  background-repeat : no-repeat;
+  background-attachment: fixed;
+  
+}
+.inner {
+  width: 1100px;
+  height: 646px;
+  margin: 0 auto;
+  position: relative;
+}

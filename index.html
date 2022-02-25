@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- reset css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+  <link rel="stylesheet" href="./css/common.css" />
+  <link rel="stylesheet" href="./css/main.css" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
+  <!-- GSAP & ScrollToPlugin -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
+    integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollToPlugin.min.js"
+    integrity="sha512-agNfXmEo6F+qcj3WGryaRvl9X9wLMQORbTt5ACS9YVqzKDMzhRxY+xjgO45HCLm61OwHWR1Oblp4QSw/SGh9SA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"
+    integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- SWIPER -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css" />
+  <script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
+  <!-- Material icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+
+  <!-- 메인 js -->
+  <script defer src="./js/main.js"></script>
+
+  <title>Voyage_dev!!</title>
+</head>
+
+<body>
+  <!-- 헤더는 따로 X -->
+  <section class="visual">
+    <div class="inner">
+      <div class="title">
+        <h1>Hi, I'm Voyage</h1><br />
+        <h1>Looking for a <span class="next-title">Front-End Developer?</span></h1>
+      </div>
+      <div class="fade-in">
+        <a href="#section1">
+          <figure>
+            <img src="./images/dev.jpg" alt="Voyage_img_dev" class="start image floating1" />
+            <figcaption class="start image floating1">about me!</figcaption>
+          </figure>
+        </a>
+      </div>
+
+      <div class="fade-in">
+        <a href="#section2">
+          <figure>
+            <img src="./images/meeting.jpg" alt="Voyage_img_dev LATTE" class="meeting image floating2 " />
+            <figcaption class="meeting image floating2">project</figcaption>
+          </figure>
+        </a>
+      </div>
+      <div class="fade-in">
+        <a href="https://voyage-dev.tistory.com/" target="_blank">
+          <figure>
+            <img src="./images/blogImage.png" alt="Voyage_img_dev" class="blog image floating3 " />
+            <figcaption class="blog image floating3">blog</figcaption>
+          </figure>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="aboutMe">
+    <div id="section1">
+      <span class="light">about me!</span>
+      <div class="slide">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./images/2.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/3.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/5.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/6.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <!-- <div class="swiper-prev">
+          <div class="material-icons">arrow_back</div>
+        </div>
+        <div class="swiper-next">
+          <div class="material-icons">arrow_forward</div>
+        </div> -->
+      </div>
+      <h2 class="intro"><span>안녕하세요!</span><br /><br />
+        <p>항해하는 개발자 최규성입니다 ^^</p>
+        <hr class="double"><br />
+        <p>함께 일하고싶은 재밌는 Front-End 개발자가 목표입니다</p>
+        <br>
+        <p>32기 위코더 분들과 함께 보낼 3개월이 기대됩니다! 다들 화이팅!</p>
+      </h2>
+
+      <div class="myHobbies">
+        <h2 class="like">Things I'd like to do!</h2>
+        <hr class="dot">
+        <div class="hobby">
+        <div class="myType">
+          <div class="front">
+            <img src="./images/hobby1.png" class="front" alt="">
+          </div>
+          <div class="back">
+            <img src="./images/hobby11.png" class="" alt="">
+            <p class="describe">운동을 좋아합니다!</p>
+          </div>
+        </div>
+        <div class="myType">
+          <div class="front">
+            <img src="./images/hobby2.png" class="front" alt="">
+          </div>
+          <div class="back">
+            <img src="./images/hobby22.png" class="" alt="">
+            <p class="describe">음악중에 힙합을<br /> 좋아합니다! <br />
+            콘서트 가고파...
+            </p>
+          </div>
+        </div>
+        <div class="myType">
+          <div class="front">
+            <img src="./images/hobby3.png" class="front" alt="">
+          </div>
+          <div class="back">
+            <img src="./images/hobby33.png" class="" alt="">
+            <p class="describe">여행과 카페투어 <br />좋아합니다 <br />
+            1일 1커피!!
+            </p>
+          </div>
+        </div>
+        <div class="myType">
+          <div class="front">
+            <img src="./images/hobby4.png" class="front" alt="">
+          </div>
+          <div class="back">
+            <img src="./images/hobby44.png" class="" alt="">
+            <p class="describe">맛있는거 먹는거 <br />
+              좋아합니다!</p>
+          </div>
+        </div>
+      </div>
+
+        
+      </div>
+    </div>
+  </section>
+
+  <section class="project">
+    <div id="section2">
+      <div class="movie1">
+        <img src="./images/star.png" alt="star" />
+        <div class="describe1">
+          <h1>STARBUCKS CLONE CODING</h1>
+          <hr class="starbucks">
+          <ul>
+            <li>SKILLS</li>
+            <li>
+              <hr class="vertical" width="0.1px" size="100px">
+            </li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+          </ul>
+          <ul>
+            <li>TO:</li>
+            <li class="noline">
+              <hr class="vertical" width="0.1px" size="100px">
+            </li>
+            <a href="https://mystifying-lichterman-920c17.netlify.app/" target="_blank">
+              <li start="1">Netlify 배포</li>
+            </a>
+            <a href="https://cks612.github.io/starbucks/" target="_blank">
+              <li>Github 배포</li>
+            </a>
+          </ul>
+
+        </div>
+      </div>
+      <div class="movie2">
+        <img src="./images/movie.png" alt="star" />
+        <div class="describe2">
+          <h1>OMDB_API CLONE CODING</h1>
+          <hr class="starbucks">
+          <ul>
+            <li>SKILLS</li>
+            <li>
+              <hr class="vertical" width="0.1px" size="100px">
+            </li>
+            <li>VUE</li>
+            <li>HTML</li>
+            <li>SCSS</li>
+            <li>JAVASCRIPT</li>
+          </ul>
+          <ul>
+            <li style="margin-right:37px">TO:</li>
+            <li class="noline">
+              <hr class="vertical" width="0.1px" size="100px">
+            </li>
+            <a href="https://flamboyant-albattani-be4fb0.netlify.app/#/" target="_blank">
+              <li start="1">Netlify 배포 (검색가능)</li>
+            </a>
+            <a href="https://github.com/cks612/vue-movie-app" target="_blank">
+              <li>Github 코드</li>
+            </a>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div id="to-top">
+    <div class="material-icons">arrow_upward</div>
+  </div>
+</body>
+</html>
